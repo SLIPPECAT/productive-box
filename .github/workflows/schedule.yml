@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update gist
-        uses: SLIPPECAT/25bdc0139054ea833be4409d6edc90d4
+        uses: SLIPPECAT/productive-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: 40763ff625f5e3145dc44e431b7ebb37
